@@ -11,6 +11,9 @@
   background-position: top left, right bottom;
   background-color: #fff8f3;
 }
+.text-center {
+  text-align: center;
+}
 .secondary-bg {
   background-color: #fff8f3;
 }
@@ -83,8 +86,11 @@ main {
   max-width: 940px;
   margin: 0 auto;
 }
+main section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
 .about {
-  margin-top: 150px;
   border-radius: 10px;
   padding: 130px 150px;
 }
@@ -97,12 +103,22 @@ main {
   color: #757575;
   font-size: 18px;
 }
-.about-items{
+.about-items {
   display: flex;
   justify-content: space-around;
   margin-top: 80px;
   padding: auto;
 }
-.item-description{
+.item-description {
   font-weight: bold;
+}
+.skills-container {
+  display: flex;
+  gap: 24px;
+  max-height: 430px;
+}
+.skill {
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
 }
