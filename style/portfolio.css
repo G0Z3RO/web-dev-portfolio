@@ -122,3 +122,46 @@ main section {
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
 }
+/* resume section */
+.section-title{
+  text-align: center;
+}
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+.experience{
+  padding: 0px 10px;
+}
+.resume-column-title{
+  color: #474747;
+  margin-bottom: 5px;
+}
+.experience-title{
+  color: #474747;
+}
+.experience-sub-title{
+  color: #757575;
+}
+experience-description{
+  color: #757575;
+  line-height: 28px;
+  font-size: 16px;
+}
+.resume hr{
+  margin: 20px 7px;
+}
+.text-center{
+  text-align: center;
+  margin-top: 50px;
+  border: none;
+  border-radius: 7px;
+}
+/* .resume-download-cv{
+  margin-top: 50px;
+} */
+.btn-primary{
+  color: aquamarine;
+  font-size: 17px;
+  font-weight: 600;
+}
